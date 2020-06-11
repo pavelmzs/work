@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="464.0" prefWidth="471.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller3">
+   <children>
+      <Button fx:id="dann" layoutX="186.0" layoutY="226.0" mnemonicParsing="false" text="Ввести данный" />
+      <Separator prefHeight="80.0" prefWidth="471.0" />
+      <TextField fx:id="last_name" layoutX="6.0" layoutY="8.0" text="Фамилия" />
+      <TextField fx:id="name" layoutX="161.0" layoutY="8.0" text="Имя" />
+      <TextField fx:id="middle_name" layoutX="316.0" layoutY="8.0" text="Отчество" />
+      <Separator layoutY="40.0" prefHeight="93.0" prefWidth="471.0" />
+      <TextField fx:id="qualification" layoutX="6.0" layoutY="50.0" prefHeight="25.0" prefWidth="218.0" text="Квалификация">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="profession" layoutX="247.0" layoutY="50.0" prefHeight="25.0" prefWidth="218.0" text="Профессия">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextArea fx:id="about_me" layoutX="6.0" layoutY="92.0" prefHeight="118.0" prefWidth="460.0" text="О себе" />
+      <TextArea fx:id="otv" layoutX="6.0" layoutY="258.0" prefHeight="200.0" prefWidth="460.0" />
+   </children>
+</AnchorPane>

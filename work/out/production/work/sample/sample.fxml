@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="185.0" prefWidth="203.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="zak" layoutX="51.0" layoutY="48.0" mnemonicParsing="false" text="Я работодатель" />
+      <Button fx:id="cli" layoutX="37.0" layoutY="103.0" mnemonicParsing="false" text="Я клиент-соискатель" />
+   </children>
+</AnchorPane>
